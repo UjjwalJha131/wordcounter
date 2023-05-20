@@ -1,130 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "montserrat", sans-serif;
+#nav-up {
+   position: relative !important;
+   z-index: 100000 !important;
 }
 
-body {
-    background-color: #000;
-    min-width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+#switch {
+    position: absolute;
+    left: 300px;
 }
 
-.card {
-    background-color: #7c7c7c8c;
-    width: 275px;
-    height: auto;
-    border-radius: 10px;
+@media screen and (max-width:768px) {
+    #switch {
+        position: absolute;
+        left: 100px;
+    }
 }
 
-.top {
-    width: 275px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.image {
-    width: 275px;
-    border-radius: 10px 10px;
-}
-
-.name {
-    margin: 8px 0;
-    color: aliceblue;
-    letter-spacing: 1.5px;
-    font-size: 22px;
-}
-
-.para {
-    letter-spacing: 1px;
-    color: goldenrod;
-}
-
-.website {
-    margin: 5px 0;
-    letter-spacing: 1.2px;
-    color: aliceblue;
-}
-
-.btn--container {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px 0;
-}
-
-.btn--1 {
-   background-color: #ff3c3c;
-   color: black;
-   width: 100px;
-   height: 30px;
-   border: 0;
-   outline: 0;
-   border-radius: 10px;
-}
-.btn--2 {
-    background-color: rgb(97, 97, 238);
-    color: black;
-    width: 100px;
-    height: 30px;
-    border: 0;
-    outline: 0;
-    border-radius: 10px;
-}
-
-.card--2 {
-    padding: 15px
-}
-
-.about {
-    font-size: 18px;
-    color: goldenrod;
-    margin: 5px 0;
-    letter-spacing: 1px;
-}
-
-.about--para {
-    color: aliceblue;
-    letter-spacing: 0.5px;
-    line-height: 20px;
-}
-
-
-.card--3 {
-    padding: 15px;
-    margin-top: -20px
-}
-
-.interest {
-    font-size: 18px;
-    color: goldenrod;
-    margin: 5px 0;
-    letter-spacing: 1px;
-}
-
-.interest--para {
-    color: aliceblue;
-    letter-spacing: 0.5px;
-    line-height: 20px;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    border: 1px solid #7c7c7c8b;
-    padding: 5px;
-    height: 100px;
-}
-
-.icon {
-    width: 250px;
-}

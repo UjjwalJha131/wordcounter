@@ -1,0 +1,40 @@
+
+
+.main--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+.heading {
+    text-align: center;
+    margin: 15px 0;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid purple;
+}
+
+#my-box {
+    margin-top: 15px;
+    background-color: #000;
+    color: ghostwhite;
+    letter-spacing: 1px;
+}
+
+.child-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border: 2px solid purple;
+}
+
+
+.btn {
+    margin: 10px 10px 0 0  !important;
+}
+
+h5 {
+    letter-spacing: 1.5px;
+}
